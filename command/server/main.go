@@ -3,9 +3,9 @@ package main
 import (
 	"fmt"
 
-	"github.com/eiichiroi/ping"
+	"github.com/eiichiroi/ping/ping"
 )
 
 func main() {
-	fmt.Fprintf("Server! " + ping.Version + "\n")
+	fmt.Printf("Server! " + ping.Version + "\n")
 }
